@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: az204-labs
+
+azure.storage.blob:
+  connection-string: ${AZURE_STORAGE_CONNECTION_STRING}
+  container-name: ${STORAGE_CONTAINER_NAME}
